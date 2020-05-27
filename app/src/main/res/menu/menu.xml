@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/appSearchBar"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_share_black_24dp"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/more"
+        android:title="আরো অ্যাপস" />
+    <item
+        android:id="@+id/rate"
+        android:title="অ্যাপ টিকে ৫ স্টার দিন" />
+    <item
+        android:id="@+id/feed"
+        android:title='অ্যাপ ফিডব্যাক' />
+    <item
+        android:id="@+id/shar"
+        android:title="অ্যাপ শেয়ার করুন" />
+    <item
+        android:id="@+id/social"
+        android:title="সোশ্যাল মিডিয়া" />
+</menu>

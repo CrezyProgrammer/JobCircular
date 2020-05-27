@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "992200992640",
+    "firebase_url": "https://job-circular-f2ab2.firebaseio.com",
+    "project_id": "job-circular-f2ab2",
+    "storage_bucket": "job-circular-f2ab2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992200992640:android:d30d8618d6da710fac8365",
+        "android_client_info": {
+          "package_name": "com.mssoftinc.jobcircular"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "992200992640-lhpqsu6mfqlq0vfoodl91jrb5hpp53uf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mssoftinc.jobcircular",
+            "certificate_hash": "8ed0f16a9060934bdb3c10d84249aa1b717cfd73"
+          }
+        },
+        {
+          "client_id": "992200992640-oc001i1hdkae614tqimub626m6m5d2b0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHwpLeAVqQnlsSw-MdwJynCF3XHwpqKMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "992200992640-oc001i1hdkae614tqimub626m6m5d2b0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

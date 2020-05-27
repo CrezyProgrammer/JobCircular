@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <group android:id="@+id/main_group"/>
+    <group android:id="@+id/second_group">
+
+    </group>
+    <group android:id="@+id/third_group"/>
+</menu>

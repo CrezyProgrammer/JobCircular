@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
+  <androidx.cardview.widget.CardView
+      android:id="@+id/card"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="5dp"
+      app:cardCornerRadius="5dp">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+      <TextView
+          android:id="@+id/titleText"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/link"
+          android:gravity="left"
+          android:text="৪৯১ পদে মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তরে (DNC) নিয়োগ বিজ্ঞপ্তি"
+          android:textSize="18sp"/>
+
+      <TextView
+          android:id="@+id/link"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="5dp"
+          android:layout_marginTop="5dp"
+          android:text="মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তরে" />
+
+      <TextView
+          android:id="@+id/last2"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/titleText"
+          android:text="বাংলাদেশ"
+          android:textColor="#1154FF" />
+
+      <LinearLayout
+          android:id="@+id/sj"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/last2"
+          android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="আবেদনের শেষ তারিখঃ"
+            android:textColor="#FF0000" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:text="na"
+            android:textColor="#FF0000" />
+      </LinearLayout>
+
+      <LinearLayout
+          android:id="@+id/ssj"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/sj"
+          android:orientation="horizontal">
+
+      </LinearLayout>
+
+    </RelativeLayout>
+  </androidx.cardview.widget.CardView>
+
+</LinearLayout>
