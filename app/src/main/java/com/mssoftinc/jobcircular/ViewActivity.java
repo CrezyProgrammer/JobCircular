@@ -120,7 +120,7 @@ public class ViewActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId("ca-app-pub-1780153885457567/7718601245");
+        mInterstitialAd.setAdUnitId("ca-app-pub-2631940161649809/2742835064");
         mInterstitialAd.loadAd(new AdRequest.Builder().build());
 
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {

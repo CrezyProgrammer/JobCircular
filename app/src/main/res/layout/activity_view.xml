@@ -27,7 +27,7 @@
         android:layout_alignParentBottom="false"
         android:layout_centerHorizontal="true"
         app:adSize="BANNER"
-        app:adUnitId="ca-app-pub-1780153885457567/2218615130"></com.google.android.gms.ads.AdView>
+        app:adUnitId="ca-app-pub-2631940161649809/6682080076"></com.google.android.gms.ads.AdView>
 
     <ScrollView
 
